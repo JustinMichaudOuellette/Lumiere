@@ -1,0 +1,64 @@
+import org.jetbrains.kotlin.gradle.dsl.JvmTarget
+
+plugins {
+    alias libs.plugins.android.application
+}
+
+android {
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+    kotlin {
+        compilerOptions {
+            jvmTarget = JvmTarget.JVM_17
+        }
+    }
+
+    buildFeatures {
+        compose false
+    }
+
+    signingConfigs {
+        debug {
+            keyAlias 'androiddebugkey'
+            keyPassword 'android'
+            storeFile file(System.properties['user.home']+'/.android/debug.keystore')
+            storePassword 'android'
+        }
+    }
+    compileSdk = 37
+    defaultConfig {
+        applicationId 'ca.justinmo.lumiere'
+        minSdk = 26
+        targetSdk = 37
+        versionCode 1
+        versionName "1.0"
+        vectorDrawables.useSupportLibrary = true
+        resConfigs "en", "fr"
+        signingConfig signingConfigs.debug
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'),
+                    'proguard-rules.pro'
+        }
+    }
+    // Specifies one flavor dimension.
+    flavorDimensions += "version"
+    productFlavors {
+        dev {
+            dimension "version"
+            signingConfig signingConfigs.debug
+        }
+        fdroid {
+            dimension "version"
+        }
+    }
+    namespace 'ca.justinmo.lumiere'
+}
+
+dependencies {
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="activity_name">Lumière</string>
+
+    <string name="close">Close</string>
+    <string name="info">Info</string>
+
+    <string name="description">This app stems from one simple idea:\nWhat if you map the XYZ accelerometer data to RGB colors?\n\nThe result is an interactive light that you can use for fun or simply to help you in the dark.\n\nThe app is designed to minimize the APK size.</string>
+
+    <string name="version_label">Version %1$s</string>
+    <string name="btn_share">Share</string>
+    <string name="share_message_template">Check out %1$s: %2$s</string>
+    <string name="title_about">About</string>
+    <string name="mode_template">%1$d</string>
+</resources>

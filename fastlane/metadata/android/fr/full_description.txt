@@ -1,0 +1,11 @@
+Lumière est une application Android lumineuse, simple et interactive, basée sur une idée unique : mappez les données XYZ de l'accéléromètre vers des couleurs RVB. Le résultat est une lumière dynamique que vous pouvez utiliser pour vous amuser ou simplement comme outil dans le noir.
+
+Fonctionnalités :
+- Mappage des couleurs par l'accéléromètre : l'orientation de l'appareil contrôle directement la couleur de la lumière (rouge, vert, bleu).
+- Plusieurs modes : basculez entre 6 permutations de mappage des couleurs (RGB, GRB, GBR, BGR, BRG, RBG) en touchant l'écran.
+- Démarrage aléatoire : à chaque ouverture, l'application choisit un mappage de couleurs initial aléatoire.
+- APK ultra-léger : conçu pour minimiser l'empreinte de stockage grâce au mode R8 complet, à la réduction des ressources et aux API Android natives, sans dépendances lourdes.
+- Interface Edge-to-Edge : une expérience moderne et immersive qui utilise tout l'écran, y compris les barres de statut et de navigation.
+- Écran À propos interactif : contient des informations sur le projet et un lien cliquable et souligné vers le site web du développeur.
+
+Lumière est un logiciel libre, distribué sous licence GNU General Public License v3.0.

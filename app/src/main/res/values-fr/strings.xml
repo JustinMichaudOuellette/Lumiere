@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="activity_name">Lumière</string>
+
+    <string name="close">Fermer</string>
+    <string name="info">Infos</string>
+
+    <string name="description">Cette application est née d\'une idée simple :\nEt si on mappait les données XYZ de l\'accéléromètre vers des couleurs RVB ?\n\nLe résultat est une lumière interactive que vous pouvez utiliser pour vous amuser ou simplement pour vous aider dans le noir.\n\nL\'application est conçue pour minimiser la taille de l\'APK.</string>
+
+    <string name="version_label">Version %1$s</string>
+    <string name="btn_share">Partager</string>
+    <string name="share_message_template">Découvrez %1$s : %2$s</string>
+    <string name="title_about">À propos</string>
+    <string name="mode_template">%1$d</string>
+</resources>
