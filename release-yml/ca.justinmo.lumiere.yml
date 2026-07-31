@@ -1,0 +1,27 @@
+Categories:
+  - Flashlight
+License: GPL-3.0-only
+AuthorName: Justin Michaud-Ouellette
+AuthorEmail: j.michaudouellette@gmail.com
+AuthorWebSite: https://justinmo.ca
+WebSite: https://github.com/JustinMichaudOuellette/Lumiere
+SourceCode: https://github.com/JustinMichaudOuellette/Lumiere
+IssueTracker: https://github.com/JustinMichaudOuellette/Lumiere/issues
+
+RepoType: git
+Repo: https://github.com/JustinMichaudOuellette/Lumiere.git
+
+Builds:
+  - versionName: '1.0'
+    versionCode: 1
+    commit: 928a977c6a6c854a0f5127c35b1a882b0539c181
+    subdir: app
+    gradle:
+      - assembleFullRelease
+    gradleprops:
+      - strict.release
+
+AutoUpdateMode: Version
+UpdateCheckMode: Tags
+CurrentVersion: '1.0'
+CurrentVersionCode: 1
