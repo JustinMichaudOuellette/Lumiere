@@ -27,6 +27,12 @@ You can build the project from source using Android Studio or the Gradle wrapper
 ./gradlew assembleRelease
 ```
 
+The F-Droid release is built from the `full` flavor, exactly as the F-Droid build server does:
+
+```bash
+./gradlew assembleFullRelease -Pstrict.release
+```
+
 ## License
 
 This project is licensed under the **GNU General Public License v3.0 (GPL-3.0-only)** - see the [LICENSE](LICENSE) file for details.

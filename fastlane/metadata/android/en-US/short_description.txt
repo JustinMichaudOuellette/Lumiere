@@ -1,1 +1,1 @@
-An interactive light app that maps accelerometer data to RGB colors.
+An interactive light app that maps accelerometer data to RGB colors
